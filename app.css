@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background: rgb(96,14,140);
+    background: linear-gradient(90deg, rgba(96,14,140,1) 0%, rgba(232,45,193,1) 50%, rgba(96,14,140,1) 100%);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.modo_sexo{
+    color: rgb(20, 5, 5);
+    margin-top: 15px;
+    display: none;
+    z-index: 1000;
+    padding: 200px 0px 1000px 0px;
+}
+
+p{
+    margin-top: 25px;
+    font-size: 50px;
+    
+}
+
+#video{
+    margin-bottom: 25px;
+    border-radius: 15px;
+    padding: 150px 0 0 0;
+
+}
+
+.peticion{
+    color: rgb(227, 230, 65);
+    margin-bottom: 25px;
+}
+
+#btn_si{
+    font-size: 20px;
+    height: 40px;
+    width: 70px;
+    background-color: rgb(248, 128, 158);
+    border: none;
+    border-radius: 5px;
+    margin-right: 55px;
+    cursor: pointer;
+}
+#btn_si:hover{
+    background-color: rgb(207, 204, 21) ;
+}
+
+#btn_no{
+    font-size: 20px;
+    height: 40px;
+    width: 70px;
+    background-color: rgb(24, 58, 168);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    margin-right: 55px;
+    cursor: pointer;
+}
+#btn_no:hover{
+    background-color: rgb(221, 93, 19) ;
+}
